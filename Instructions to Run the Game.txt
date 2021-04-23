@@ -1,0 +1,5 @@
+1. Please connect with the local port through Go Live to load the images used for boxes. (Images take some time to load).
+2. For creating Layers/Levels of Boxes click on GUI -> Keep selecting all levels to make use of all layers available.
+3. Click on the Yellow and Blue boxes to see the credit points achieved once you click the box and it disappears.
+4. Check your status for Winning or Losing once you reach a certain Credit Score displayed on the play screen.
+5. Contact me if any issue occurs.

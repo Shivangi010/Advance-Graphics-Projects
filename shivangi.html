@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Breaking Glass Game</title>
+        <style>
+            body{
+
+                overflow: hidden;
+                margin: 0px;
+                background-color: #f0f0f0;
+			    color: rgb(255, 255, 255);
+            }
+                #info {
+	            position: absolute;
+                margin-left: 25%;
+                top: 10px;
+	            width: 50%;
+                z-index: 100;
+	            display:block;
+	            text-align: center;
+        }
+      
+        #Score {
+	        position: relative;
+            font-size: 50px;
+        }
+        #msg {
+	        position: relative;
+            font-size: 20px;
+        }
+            
+            </style>
+ <meta charset="UTF-8">
+
+ <meta name = "viewport" content ="width=device-width, initial-scale=1.0">
+
+ <script src="file:///C:/Users/DELL/Desktop/Centennial/Semester-IV/Advance%20Graphics/Lab_01_Shivangi/MYPROJECT/public/node_modules/three/build/three.js"></script>
+ <script src="file:///C:/Users/DELL/Desktop/Centennial/Semester-IV/Advance%20Graphics/Lab_01_Shivangi/MYPROJECT/public/node_modules/three/build/three.min.js"></script>
+ <script src="file:///C:/Users/DELL/Desktop/Centennial/Semester-IV/Advance%20Graphics/Lab_01_Shivangi/MYPROJECT/public/node_modules/three/examples/js/libs/dat.gui.min.js"></script>
+ <script src="file:///C:/Users/DELL/Desktop/Centennial/Semester-IV/Advance%20Graphics/Lab_01_Shivangi/MYPROJECT/public/node_modules/three/examples/js/libs/stats.js"></script>
+ <script src="file:///C:/Users/DELL/Desktop/Centennial/Semester-IV/Advance%20Graphics/Lab_01_Shivangi/MYPROJECT/public/node_modules/three/examples/js/lights/RectAreaLightUniformsLib.js"></script>
+ <script src="file:///C:/Users/DELL/Desktop/Centennial/Semester-IV/Advance%20Graphics/Lab_01_Shivangi/MYPROJECT/public/node_modules/three/examples/js/controls/OrbitControls.js"></script>
+ <script src="file:///C:/Users/DELL/Desktop/Centennial/Semester-IV/Advance%20Graphics/Lab_01_Shivangi/MYPROJECT/public/physijs/physi.js"></script> -->
+</head>
+<body>
+    <script src="shivangi.js"></script>
+   
+    <div id="info">
+        <h1>Breaking Glass</h1><br>
+        
+       <strong>Click on Yellow and Blue color blocks to Win</strong><br>
+       <strong>Your Score:</strong> 
+       <div id="Score"></div>
+       <div id="msg">        
+    </div>    
+       </div>
+   </div>
+</body>
+</html>
