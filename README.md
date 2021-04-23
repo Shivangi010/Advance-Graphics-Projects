@@ -4,7 +4,7 @@ This folder contains projects related to ThreeJS - Advance Graphics.
 To View the Advance Graphics Projects :
 
 
-1.Select the Particular branch you want to view.
+1. Select the Particular branch you want to view.
 
 2. Open and view the HTML Page to run the project.
 
